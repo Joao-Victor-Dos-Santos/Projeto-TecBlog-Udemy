@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+            /*  Menu */
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7b600;
+    text-align: center;  
+}
+
+.logo {
+    color: #4e4e4e;
+    font-size: 2.5em; 
+}
+
+.logo-branco{
+    color: #fff;
+}
+
+.logo, .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    margin: 25px;
+}
+
+.menu li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+ 
+}
+
+.menu a:hover {
+     color: #f7b600;
+     background-color: #fff;
+}
+
+                    /*  Posts */
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.posts {
+    background-color: #fff;
+    margin: 0 20px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.posts h1 {
+   color: #f7b600;
+}
+
+.posts h4 {
+    margin-bottom: 20px;
+}
+
+.recentes {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+.posts-recentes {
+    background-color: #fff;
+    padding: 15px;
+}
+
+.posts-recentes a {
+    color: #f7b600;
+    text-decoration: none;
+}
+
+.titulo h1 {
+    color: #4e4e4e;
+    background-color: lightgray;
+    padding: 5px;
+}
+
+.titulo p {
+    margin: 5px;
+}
+
+.titulo a {
+    margin: 5px;
+}
+
+.categoria {
+    background-color: #fff;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.titulo ul {
+    list-style: none;
+}
+
+.titulo li {
+    padding: 5px;
+}
+
+.titulo a {
+    text-decoration: none;
+    color: #f7b600;
+}
+
+footer {
+    text-align: center;
+    background-color: #f7b600;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
